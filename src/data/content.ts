@@ -10,6 +10,25 @@ import storeFallback from "@/content/store.json";
 
 type JsonShape<T> = T extends infer U ? U : never;
 
+type ContentErrorReporter = (context: { endpoint: string; error: unknown }) => void;
+
+declare global {
+  var __DIGIVATION_CONTENT_ERROR_REPORTER__: ContentErrorReporter | undefined;
+}
+
+function reportContentError(endpoint: string, error: unknown) {
+  console.error(`[content] fetch failed for ${endpoint}`, error);
+
+  const reporter = globalThis.__DIGIVATION_CONTENT_ERROR_REPORTER__;
+  if (typeof reporter === "function") {
+    try {
+      reporter({ endpoint, error });
+    } catch (reporterError) {
+      console.error(`[content] error reporter threw for ${endpoint}`, reporterError);
+    }
+  }
+}
+
 export type HomeContent = JsonShape<typeof homeFallback>;
 export type AboutContent = JsonShape<typeof aboutFallback>;
 export type ServicesContent = JsonShape<typeof servicesFallback>;
@@ -39,12 +58,16 @@ async function fetchFromHeadless<T>(endpoint: string, fallback: T): Promise<T> {
       throw new Error(`Headless CMS request failed: ${response.status} ${response.statusText}`);
     }
 
-    const data = (await response.json()) as T;
-    return data;
-  } catch (error) {
-    if (process.env.NODE_ENV === "development") {
-      console.warn(`[content] Falling back to local JSON for ${endpoint}`, error);
+    const payload = await response.json();
+
+    const normalised = (payload?.data ?? payload) as T | undefined;
+    if (!normalised) {
+      throw new Error(`Headless CMS response missing data for ${endpoint}`);
     }
+
+    return normalised;
+  } catch (error) {
+    reportContentError(endpoint, error);
     return fallback;
   }
 }
