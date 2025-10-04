@@ -1,0 +1,53 @@
+{
+  "highlights": [
+    {
+      "sector": "Telecommunications",
+      "title": "MTN Hybrid-Power Retrofit",
+      "summary": "Rolled out intelligent power orchestration across 520 macro sites, cutting diesel reliance by 32% and improving uptime to 99.97%.",
+      "impact": [
+        "520 macro sites modernised",
+        "32% reduction in diesel consumption",
+        "Predictive alarms reducing truck rolls by 28%"
+      ]
+    },
+    {
+      "sector": "Conservation",
+      "title": "Pan-African Wildlife Grid",
+      "summary": "Implemented IoT telemetry and AI insights across three reserves, helping rangers anticipate threats and coordinate rapid responses.",
+      "impact": [
+        "Coverage across 3 countries",
+        "41% reduction in poaching events",
+        "Real-time ranger safety monitoring"
+      ]
+    },
+    {
+      "sector": "Enterprise",
+      "title": "Financial Services Edge Automation",
+      "summary": "Unified facilities, security, and CX data for a top bank with a multi-site automation fabric and centralised command deck.",
+      "impact": [
+        "60+ branches transformed",
+        "35% faster incident resolution",
+        "Single-pane executive reporting"
+      ]
+    },
+    {
+      "sector": "Smart Cities",
+      "title": "Metropolitan IoT Backbone",
+      "summary": "Designed and deployed a resilient fibre and wireless mesh powering traffic, utilities, and public safety across a smart district.",
+      "impact": [
+        "150 km of fibre lit",
+        "Urban sensors unified via open data hub",
+        "Energy optimisations delivered R4.2m annual savings"
+      ]
+    }
+  ],
+  "spotlight": {
+    "title": "Microwave Network Consolidation",
+    "body": "A national operator partnered with us to re-architect point-to-point and point-to-multipoint infrastructure. We delivered end-to-end surveys, redesign, rollout, and optimisation in under nine months.",
+    "highlights": [
+      "97% inter-site availability",
+      "500+ engineers and riggers mobilised",
+      "Centralised analytics for continuous assurance"
+    ]
+  }
+}

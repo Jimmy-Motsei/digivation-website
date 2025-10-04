@@ -1,0 +1,38 @@
+{
+  "highlights": [
+    {
+      "title": "Connectivity bundles",
+      "description": "Pre-packaged LTE and fibre bundles with managed routers, failover, and analytics to keep teams connected everywhere."
+    },
+    {
+      "title": "Smart devices",
+      "description": "Enterprise-ready smartphones, rugged tablets, IoT sensors, and laptops configured with Digivation Zero Touch provisioning."
+    },
+    {
+      "title": "Support add-ons",
+      "description": "Extended warranties, device lifecycle management, and logistics services that scale with rapidly growing teams."
+    }
+  ],
+  "plans": [
+    {
+      "name": "Savvy Business LTE",
+      "price": "R299 / month",
+      "features": ["30GB data bundle", "Managed Huawei MiFi router", "Priority support"]
+    },
+    {
+      "name": "Savvy Business Broadband",
+      "price": "R189 / month",
+      "features": ["10GB business data", "SIM-only plan", "Usage analytics dashboard"]
+    },
+    {
+      "name": "Device Flex Lease",
+      "price": "From R729 / month",
+      "features": ["Laptop or smartphone of choice", "Protective accessories", "Swap-out coverage"]
+    }
+  ],
+  "links": [
+    { "label": "Browse online store", "href": "https://digivation.global/store" },
+    { "label": "Track orders", "href": "https://digivation.global/store/account" },
+    { "label": "Book procurement consult", "href": "/contact" }
+  ]
+}

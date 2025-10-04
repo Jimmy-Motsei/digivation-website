@@ -1,0 +1,86 @@
+{
+  "stats": [
+    { "value": "18+", "label": "Years driving telecom operations" },
+    { "value": "120", "label": "Specialists across engineering & field teams" },
+    { "value": "3.5k", "label": "Sites optimised & maintained" },
+    { "value": "24/7", "label": "Network command & incident response" }
+  ],
+  "capabilityPillars": [
+    {
+      "title": "Managed Infrastructure",
+      "description": "Command-and-control for tower, fibre, and wireless estates with predictive maintenance baked in.",
+      "points": ["Hybrid NOC coverage", "Condition-based maintenance", "Multi-OEM governance"]
+    },
+    {
+      "title": "Digital Transformation",
+      "description": "Automation, analytics, and AI solutions that illuminate your operations and unlock new service models.",
+      "points": ["Data fusion dashboards", "RPA for field workflows", "AI-enabled asset intelligence"]
+    },
+    {
+      "title": "Connected Workforce",
+      "description": "IoT-enabled experiences that keep teams informed, compliant, and productive in rugged environments.",
+      "points": ["Edge-ready IoT kits", "Safety & compliance telemetry", "Crew collaboration apps"]
+    }
+  ],
+  "industries": [
+    {
+      "id": "telecom",
+      "title": "Telecommunications",
+      "summary": "Scale with confidence across mobile, fibre, and satellite networks.",
+      "bullets": [
+        "Site rollout orchestration with integrated PMO",
+        "Spectrum optimisation and interference management",
+        "Tower lifecycle: design, build, operate, decommission",
+        "Energy efficiency retrofits for power resilience"
+      ]
+    },
+    {
+      "id": "utilities",
+      "title": "Utilities & Smart Cities",
+      "summary": "Unlock data-driven decisions for energy, water, and civic services.",
+      "bullets": [
+        "Grid monitoring with anomaly detection",
+        "IoT sensing for distribution networks",
+        "Command centre dashboards for response teams",
+        "Citizen experience apps with secure identity"
+      ]
+    },
+    {
+      "id": "enterprise",
+      "title": "Enterprise",
+      "summary": "Empower campuses and critical facilities with connected operations.",
+      "bullets": [
+        "Private LTE/5G planning and deployment",
+        "Workplace analytics and occupancy insights",
+        "Facilities automation and environment tuning",
+        "Cyber-physical security integrations"
+      ]
+    },
+    {
+      "id": "conservation",
+      "title": "Conservation & Field Services",
+      "summary": "Safeguard people, wildlife, and assets across vast geographies.",
+      "bullets": [
+        "Wildlife telemetry and geofencing",
+        "Ranger safety wearables with distress signalling",
+        "Remote condition monitoring for infrastructure",
+        "Offline-first data capture and sync"
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "MTN Hybrid-Power Retrofit",
+      "excerpt": "Modernised 500+ tower locations with intelligent energy orchestration, eliminating 32% of diesel consumption in year one."
+    },
+    {
+      "title": "Pan-African IoT Wildlife Grid",
+      "excerpt": "Connected conservation teams across three reserves with sensor fusion and AI alerts to reduce poaching events by 41%."
+    },
+    {
+      "title": "Enterprise Edge Automation",
+      "excerpt": "Designed a multi-site automation fabric that consolidates BMS, security, and CX data into a single command interface."
+    }
+  ],
+  "partners": ["MTN", "Samsung", "Rancom", "Huawei", "Ericsson", "Cisco"]
+}

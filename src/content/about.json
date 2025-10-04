@@ -1,0 +1,55 @@
+{
+  "milestones": [
+    {
+      "year": "2006",
+      "title": "Breaking ground",
+      "description": "Founded as a tower maintenance collective servicing a handful of Gauteng sites with a crew of eight specialists."
+    },
+    {
+      "year": "2013",
+      "title": "Nationwide rollout",
+      "description": "Expanded into fibre and microwave design, deploying multi-province PMO teams and launching our first 24/7 command centre."
+    },
+    {
+      "year": "2019",
+      "title": "Intelligence engineered",
+      "description": "Introduced analytics and automation practices, integrating AI-driven maintenance and IoT telemetry into client ecosystems."
+    },
+    {
+      "year": "2024",
+      "title": "Continental partnerships",
+      "description": "Now supporting operators and enterprises across Southern Africa with modular programmes spanning build, operate, and innovate."
+    }
+  ],
+  "principles": [
+    {
+      "title": "Deep field expertise",
+      "body": "Our multidisciplinary teams unite RF, civil, fibre, and software specialists who understand the realities on-site and in the boardroom."
+    },
+    {
+      "title": "Complexity simplified",
+      "body": "We design modular playbooks that absorb regulatory, safety, and vendor requirements so your teams can focus on execution."
+    },
+    {
+      "title": "Impact you can measure",
+      "body": "Every engagement is guided by metrics—from uptime and energy consumption to customer experience—ensuring continuous optimisation."
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Nomsa Khumalo",
+      "role": "Chief Executive Officer",
+      "bio": "Steers Digivation's growth strategy after two decades leading telecom transformation programmes across Africa."
+    },
+    {
+      "name": "Darren Maseko",
+      "role": "Chief Technology Officer",
+      "bio": "Architects cross-domain solutions that blend legacy infrastructure with cloud-native, AI-enabled platforms."
+    },
+    {
+      "name": "Lebo Mthethwa",
+      "role": "Director of Field Operations",
+      "bio": "Champions safety, compliance, and logistics for our nationwide task force of engineers and technicians."
+    }
+  ]
+}

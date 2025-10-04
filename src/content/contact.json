@@ -1,0 +1,26 @@
+{
+  "contacts": [
+    {
+      "label": "Head Office",
+      "value": "123 Innovation Street, Sandton, Johannesburg, 2196"
+    },
+    {
+      "label": "Phone",
+      "value": "+27 (0) 11 123 4567"
+    },
+    {
+      "label": "Support",
+      "value": "support@digivation.co.za"
+    },
+    {
+      "label": "Business Hours",
+      "value": "Mon-Fri 08:00-18:00 / Sat 09:00-13:00"
+    }
+  ],
+  "engagementFocus": [
+    "Network rollout",
+    "Operations support",
+    "Digital transformation",
+    "Other"
+  ]
+}

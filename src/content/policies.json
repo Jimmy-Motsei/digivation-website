@@ -1,0 +1,88 @@
+{
+  "privacy": {
+    "pillars": [
+      {
+        "title": "Data we collect",
+        "copy": "Only the essentials—contact details, engagement records, project documentation, and anonymised analytics—necessary to deliver and improve our services."
+      },
+      {
+        "title": "How we use it",
+        "copy": "Information powers account management, service delivery, compliance, and platform optimisation. We never sell personal data."
+      },
+      {
+        "title": "How we protect it",
+        "copy": "Security controls include encryption, access governance, and continuous monitoring aligned with best-practice frameworks."
+      }
+    ],
+    "rights": [
+      "Request access to personal data we hold on file",
+      "Update or correct inaccurate information",
+      "Request deletion subject to contractual and legal obligations",
+      "Object to processing or withdraw consent where applicable",
+      "Receive a portable copy of your data"
+    ],
+    "processors": [
+      { "category": "Analytics", "details": "Privacy-centric analytics to understand site usage (IP anonymised)." },
+      { "category": "Collaboration", "details": "Project collaboration and ticketing platforms for service delivery." },
+      { "category": "Cloud Hosting", "details": "ISO/IEC 27001-certified infrastructure providers located within the EMEA region." }
+    ]
+  },
+  "terms": {
+    "sections": [
+      {
+        "heading": "Scope & eligibility",
+        "body": "Services are delivered under mutually executed proposals or master agreements. By engaging Digivation, you confirm that you have authority to bind your organisation and will provide accurate information required for delivery."
+      },
+      {
+        "heading": "Acceptable use",
+        "body": "Clients agree not to misuse infrastructure, tooling, or shared platforms, including unauthorised access attempts, malware distribution, or activity that degrades service for other customers."
+      },
+      {
+        "heading": "Fees & invoicing",
+        "body": "Fees, billing schedules, and payment terms are defined in the applicable statement of work. Late payments may incur finance charges or suspend services until accounts are rectified."
+      },
+      {
+        "heading": "Intellectual property",
+        "body": "Deliverables, software, and documentation remain Digivation intellectual property unless transferred in writing. Clients receive usage rights necessary to operate the solution."
+      },
+      {
+        "heading": "Confidentiality",
+        "body": "Both parties commit to protecting confidential information and using it solely for agreed purposes. Confidentiality obligations survive the term of the engagement."
+      }
+    ],
+    "commitments": [
+      {
+        "title": "Our commitment",
+        "points": [
+          "Deliver services with reasonable skill, care, and diligence",
+          "Meet agreed timelines where dependencies are fulfilled",
+          "Comply with applicable legislation, safety, and data protection requirements",
+          "Provide qualified personnel and vetted subcontractors"
+        ]
+      },
+      {
+        "title": "Your commitment",
+        "points": [
+          "Provide necessary access, information, and decision-making within agreed timeframes",
+          "Ensure third-party consents or licences are in place",
+          "Use deliverables in accordance with the licence terms",
+          "Settle invoices within the payment terms"
+        ]
+      }
+    ],
+    "boilerplate": [
+      {
+        "heading": "Limitation of liability",
+        "text": "Digivation is not liable for indirect, consequential, or punitive damages. Direct liability is capped at the amounts paid under the related services in the preceding 12 months, unless prohibited by law."
+      },
+      {
+        "heading": "Termination",
+        "text": "Either party may terminate for material breach if not remedied within 30 days of written notice. Termination does not relieve payment obligations for work already completed."
+      },
+      {
+        "heading": "Governing law",
+        "text": "These terms are governed by the laws of the Republic of South Africa. Any disputes will be handled by the courts of Johannesburg, subject to alternative dispute mechanisms agreed in writing."
+      }
+    ]
+  }
+}

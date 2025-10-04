@@ -1,0 +1,63 @@
+{
+  "programmes": [
+    {
+      "title": "Network Design & Modernisation",
+      "description": "From spectrum planning to fibre backhaul, we deliver blueprint-to-build programmes that guarantee resilience and regulatory compliance.",
+      "phases": [
+        "Radio & transport network modelling",
+        "Permitting, civils, and structural upgrades",
+        "Hybrid power integration with remote telemetry"
+      ]
+    },
+    {
+      "title": "24/7 Managed Operations",
+      "description": "Command centre expertise paired with field response teams keeps uptime high and SLAs intact across distributed sites.",
+      "phases": [
+        "Centralised NOC/SOC operations",
+        "Predictive maintenance and spares management",
+        "Incident response and executive reporting"
+      ]
+    },
+    {
+      "title": "Digital Transformation Studio",
+      "description": "Co-create capability roadmaps that unify automation, analytics, and IoT for agile, data-driven decision making.",
+      "phases": [
+        "Process discovery & automation design",
+        "Data fusion platforms and dashboards",
+        "Change management and enablement"
+      ]
+    }
+  ],
+  "accelerators": [
+    {
+      "name": "Helios Tower Intelligence",
+      "copy": "Sensor, drone, and manual inspections feed a single digital twin, enabling condition-based maintenance and energy savings."
+    },
+    {
+      "name": "Velocity Rollout Suite",
+      "copy": "An integrated PMO toolkit that aligns contractors, inventory, and site data for faster, safer deployments."
+    },
+    {
+      "name": "Sentinel Field Ops",
+      "copy": "Mobile-first workflows give technicians guidance, capture quality evidence, and sync insights back to HQ instantly."
+    }
+  ],
+  "engagementModel": [
+    {
+      "step": "Discover",
+      "detail": "Assess objectives, KPIs, and regulatory landscape through collaborative workshops and site audits."
+    },
+    {
+      "step": "Design",
+      "detail": "Architect modular programmes, budgets, and governance structures that align with your roadmap."
+    },
+    {
+      "step": "Deliver",
+      "detail": "Deploy multidisciplinary teams, automation, and tooling to execute rapidly without compromising quality."
+    },
+    {
+      "step": "Optimise",
+      "detail": "Instrument everything, analyse outcomes, and iterate to unlock incremental operational gains."
+    }
+  ]
+}
